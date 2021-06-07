@@ -1,9 +1,13 @@
-import React from 'react';
-import UpperDocument from './components/UpperDocument.js'
+import Personal from "./components/Personal.js"
+import Statistics from "./components/Statistics.js"
+import "./App.css"
 function App() {
   return (
-    
-    <UpperDocument/>
-  );
-}
+    <div className="App">
+      <div className = "top">
+        <Personal/>
+        <Statistics/>
+     
+      </div>
+    </div>
 export default App;
