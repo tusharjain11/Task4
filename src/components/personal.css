@@ -1,0 +1,102 @@
+.parentContainer {
+    background-color: rgb(245, 241, 241);
+    border: 3px;
+    width: 370px;
+    height: 200px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+    color: rgb(70, 65, 65);
+}
+
+h4 {
+    margin : 10px;
+}
+
+p {
+    margin : 0px;
+    font-size: 0.8rem;
+}
+
+span {
+    margin : 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.lineOne {
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.lineTwo {
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.lineThree {
+    margin-left: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+button {
+    background-color: white;
+  color: black;
+  border: 2px solid blue; /* Green */
+  width: 100px;
+  border-radius: 5px;
+  border-width: 2px;
+  height: 25px;
+  color: blue;
+}
+
+button:hover {
+   background-color: blue;
+   border: none;
+   cursor: pointer;
+   color: white;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.note{
+    border-radius: 0;
+}
+
+.friend {
+  
+    border-radius: 0px;
+    margin-left: 155px;
+    
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: row;
+}
