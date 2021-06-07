@@ -1,0 +1,32 @@
+.parentFor{
+    background-color: brown;
+    background-color: rgb(245, 241, 241);
+    border: 3px;
+   
+    height: 350px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+    color: rgb(70, 65, 65);
+}
+
+.dayBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    height: 20px;
+    font-weight: 900;
+    border-radius: 20px;
+}
+
+.timeTable{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
