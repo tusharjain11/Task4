@@ -12,7 +12,7 @@ const Personal  = () => {
             </div>
             <div className = "bodyContainer">
                 <div className = "lineOne">
-                  <img src = "assets/photoSelf.png" alt = "my photo"></img>
+                  <img src = "assets/profile.jpg" alt = "my photo"></img>
                   <span>Marvin Mckinney</span>
                   <img src = "assets/add-friend.png" className = "friend"></img>
                   
