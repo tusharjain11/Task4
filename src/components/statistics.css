@@ -1,0 +1,54 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(245, 241, 241);
+    border-radius: 20px;
+    padding: 30px;
+    width: 600px;
+    height: 200px;
+    border: 3px;
+    margin-right: 70px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-bottom : 20px;
+    color: rgb(70, 65, 65);
+}
+
+.attendance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tests{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homework{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.real{
+    position: relative;
+   
+}
+
+.spanhere{
+    position:absolute;
+    color: blue;
+    font-size: 1.2rem;
+    left: 28px;
+    bottom: 35px;
+    font-weight: 500;
+}
